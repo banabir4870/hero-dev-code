@@ -23,14 +23,20 @@
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 /* main style */
 header{
+    margin: 0 auto;
+    max-width: 1600px;
     background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 nav{
-    width: 60%;
+    /* width: 60%; */
     max-width: 1140px;
     /* border: 1px solid green; */
     margin: 0 auto;
@@ -51,6 +57,41 @@ nav .menu a{
     font-weight: 400;
     color: #474747;
     text-decoration: none;
+}
+#banner{
+    /* width: 70%; */
+    max-width: 1332px;
+    /* border: 1px solid red; */
+    margin: 45px 40px 0px 231px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+#banner .banner-image{
+    max-width: 585px;
+    max-height: 680px;
+    vertical-align: middle;
 }
 
 
