@@ -31,6 +31,9 @@
     text-align: center;
     margin: 0 auto;
 }
+.text-center{
+    text-align: center;
+}
 
 /* main style */
 header{
@@ -38,7 +41,7 @@ header{
     max-width: 1600px;
     background-color: #FFF8F3;
     background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -176,3 +179,91 @@ nav .menu a{
     font-weight: 400;
     color: #757575;
 }
+#resume{
+    padding-top: 130px;
+    margin: 0 auto;
+}
+.resume-container{
+    width: 68%;
+    max-width: 1093px;
+    margin: 0 auto;
+    /* justify-content: ; */
+}
+.box{
+    display: flex;
+    padding-top: 125px;
+    gap: 24px;
+}
+.box h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.box h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.box h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px; 
+}
+.box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 50px;
+}
+hr{
+    margin-bottom: 30px;
+}
+.card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+}
+.footer-container{
+    display: flex;
+    width: 71%;
+    max-width: 1140px;
+    padding: 130px 0;
+    margin: 0 auto;
+    gap: 117px;
+
+}
+
+.footer-container .social{
+    max-width: 562px;
+}
+
+.footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .social p{
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-container .icons a{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"], .footer-container form textarea{
+    width: 461px;
+    border: none;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    color: #757575;
+}
+
